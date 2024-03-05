@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header .container{
+    display: flex;
+    width: 1100px
+}
+
+body > header {
+    background-color: black;
+    padding: 16px 0px ;
+    color: aliceblue;
+}
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+header li {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 16px;
+}
+
+.container {
+    flex-wrap: nowrap;
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.articles {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+
+.articles article img{
+    /*height: 100px; */
+    width: 100%;
+}
+
+.articles article {
+    width: 30%;
+}
+
+section{
+    padding: 20px 5px;
+}
+
+section h2,
+.articles article {
+    margin-bottom: 16px;
+}
+
+.articles article h3{
+margin-top: 8px;
+margin-bottom: 8px;
+}
+
+.articles article a {
+    background-color: rgba(64, 22, 255, 0.082);
+    color: rgb(255, 255, 255);
+    padding:  5px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bolder;
+    margin-top: 8px;
+}
+
+.articles article a:hover{
+    text-decoration: underline;
+}
+
+.articles article p,
+.articles article a {
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.articles article h3 {
+    font-size: 20px;
+}
+
+section h2 {
+    font-size: 30px;
+    flex: 1000px;
+}
+
+#esportes{
+    background-color: hsla(120, 100%, 51%, 0.103);
+}
+
+#esportes .articles article a{
+    background-color:rgb(100, 158, 42)
+}
+
+#Economia {
+    background-color: rgba(233, 221, 54, 0.116);
+}
+
+#Economia .articles article a{
+    background-color: rgb(196, 102, 35);
+}
+
+#corinthias{
+    background-color:rgba(255, 0, 0, 0.116)
+}
+
+#corinthias a {
+background-color: rgba(247, 21, 21, 0.425);
+}
+
+#netflix {
+    background-color: rgba(195, 247, 252, 0.253);
+}
+
+#netflix a {
+    background-color: crimson;
+}
+
